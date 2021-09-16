@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewcontroller.Controller">
+   <children>
+      <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="450.0">
+         <children>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="350.0">
+               <children>
+                  <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="150.0" text="Name" />
+                  <TextField fx:id="nameTxtField" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0" />
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="450.0">
+               <children>
+                  <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="150.0" text="Address" />
+                  <TextField fx:id="addressTxtField" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0" />
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="450.0">
+               <children>
+                  <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="150.0" text="Phone" />
+                  <TextField fx:id="phoneNumTxtField" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0" />
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="450.0">
+               <children>
+                  <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#prevPerson" prefHeight="60.0" prefWidth="150.0" text="&lt;&lt;" />
+                  <Label fx:id="currentPage" contentDisplay="CENTER" ellipsisString="" graphicTextGap="0.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="150.0" textOverrun="CENTER_ELLIPSIS" />
+                  <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#nextPerson" prefHeight="60.0" prefWidth="150.0" text="&gt;&gt;" />
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="450.0">
+               <children>
+                  <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addPerson" prefHeight="60.0" prefWidth="150.0" text="Add" />
+                  <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#delPerson" prefHeight="60.0" prefWidth="150.0" text="Delete" />
+                  <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#saveChanges" prefHeight="60.0" prefWidth="150.0" text="Save Changes" />
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="450.0">
+               <children>
+                  <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#loadFromCSV" prefHeight="60.0" prefWidth="150.0" text="Load from CSV" />
+                  <Label disable="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="150.0" />
+                  <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#saveToCSV" prefHeight="60.0" prefWidth="150.0" text="Save to CSV" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
