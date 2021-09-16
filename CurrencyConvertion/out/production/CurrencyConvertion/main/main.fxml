@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<?import javafx.scene.control.TextArea?>
+<GridPane accessibleRole="TEXT_AREA" alignment="CENTER" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+   <children>
+    <Button alignment="CENTER" contentDisplay="CENTER" defaultButton="true" graphicTextGap="0.0" mnemonicParsing="false" onAction="#handler_doConvertion" prefHeight="25.0" prefWidth="90.0" text="Convert" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextArea fx:id="area_euro" prefHeight="25.0" prefWidth="120.0" GridPane.rowIndex="1" />
+      <TextArea fx:id="area_yen" prefHeight="25.0" prefWidth="120.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Label alignment="CENTER" contentDisplay="CENTER" text="Euro €" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" text="Yen ¥" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints fillWidth="false" halignment="CENTER" prefWidth="100.0" />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="30.0" minHeight="20.0" prefHeight="25.0" />
+      <RowConstraints maxHeight="30.0" minHeight="20.0" prefHeight="25.0" />
+   </rowConstraints>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</GridPane>
