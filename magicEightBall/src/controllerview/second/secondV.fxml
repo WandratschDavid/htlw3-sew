@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerview.second.SecondC">
+    <children>
+        <Label layoutX="50.0" layoutY="25.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="125.0" text="Magic 8 Ball says ..." />
+      <TextField fx:id="answerField" editable="false" layoutX="50.0" layoutY="60.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="125.0" />
+      <Label layoutX="50.0" layoutY="100.0" minHeight="20.0" minWidth="80.0" text="Your question:" />
+      <TextField fx:id="question" layoutX="50.0" layoutY="130.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="125.0" />
+      <Button layoutX="50.0" layoutY="165.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#askQuestion" prefHeight="30.0" prefWidth="50.0" text="Ask" />
+    </children>
+</AnchorPane>
