@@ -1,6 +1,6 @@
 # Softwareentwicklung 3
 
-## Java / JavaFX <img width="60px" src="https://mindsquare.de/files/java.webp" />
+## Java / JavaFX <img width="55px" src="https://mindsquare.de/files/java.webp" />
 
 ### Übungen
 
@@ -33,7 +33,7 @@
 
 <br>
 
-## C <img width="40" src="https://e7.pngegg.com/pngimages/465/779/png-clipart-blue-and-white-c-logo-the-c-programming-language-computer-programming-computer-icons-programmer-blue-angle.png"/>
+## C <img width="30" src="https://e7.pngegg.com/pngimages/465/779/png-clipart-blue-and-white-c-logo-the-c-programming-language-computer-programming-computer-icons-programmer-blue-angle.png"/>
 
 ### Übungen
 
